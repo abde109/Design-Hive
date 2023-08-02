@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Your Webpage</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+
+    <div id="header"></div>
+    <div id="home"></div>
+    <div id="about"></div>
+    <div id="portfolio"></div>
+    <div id="price"></div>
+    <div id="news"></div>
+    <div id="contact"></div>
+    <div id="testimonial"></div>
+    <div id="footer"></div>
+
+    <script>
+        document.getElementById('header').innerHTML =
+            '<object type="text/html" data="/src/header.html" ></object>';
+        document.getElementById('home').innerHTML =
+            '<object type="text/html" data="/src/home.html" ></object>';
+
+        document.getElementById('about').innerHTML =
+            '<object type="text/html" data="/src/about.html" ></object>';
+        document.getElementById('portfolio').innerHTML =
+            '<object type="text/html" data="/src/portfolio.html" ></object>';
+        document.getElementById('price').innerHTML =
+            '<object type="text/html" data="/src/price.html" ></object>';
+
+        document.getElementById('news').innerHTML =
+            '<object type="text/html" data="/src/news.html" ></object>';
+        document.getElementById('contact').innerHTML =
+            '<object type="text/html" data="/src/contact.html" ></object>';
+        document.getElementById('testimonial').innerHTML =
+            '<object type="text/html" data="/src/testimonial.html" ></object>';
+
+        document.getElementById('footer').innerHTML =
+            '<object type="text/html" data="/src/footer.html" ></object>';
+    </script>
+
+
+</body>
+
+</html>
