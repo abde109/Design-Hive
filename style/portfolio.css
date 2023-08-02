@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@300&display=swap");
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+  margin: 0 auto;
+  justify-items: center;
+}
+.first-title {
+    color:#c4b4de;
+    font-size: 1.1rem;
+    font-weight:bold;
+    margin-bottom:0;
+}
+.second-title {
+  color: #3e3e3e;
+  font-size: 2.1rem;
+  font-weight: bold;
+  margin-top:0;
+}
