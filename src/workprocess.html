@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style/workprocess.css" />
+    <script
+    src="https://kit.fontawesome.com/fc7fc33899.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
 
-<head>
-    <link rel="stylesheet" type="text/css" href="../style/workprocess.css">
-</head>
+  <body>
+    <section class="workprocess-section">
+      <div>
+        <h2 class="workprocess-title">Work Process</h2>
+        <h3 class="workprocess-subtitle">Strategy led design in every details</h3>
+        <div class="accordion-container">
+          <div class="accordion active">
+            <div class="accordion-heading">
+              <h3>Analysis & Idea</h3>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <p class="accordion-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid,
+                quisquam nam dignissimos omnis iusto quas voluptate cumque commodi.</p>
+          </div>
 
-<body>
+          <div class="accordion">
+            <div class="accordion-heading">
+              <h3>Wireframes, MOckup & Phototype</h3>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <p class="accordion-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid,
+                quisquam nam dignissimos omnis iusto quas voluptate cumque commodi.</p>
+          </div>
 
-</body>
+          <div class="accordion">
+            <div class="accordion-heading">
+              <h3>Development</h3>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <p class="accordion-content">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid,
+              quisquam nam dignissimos omnis iusto quas voluptate cumque commodi.
+              
+            </p>
+          </div>
 
+          <div class="accordion">
+            <div class="accordion-heading">
+              <h3>Testing & Lunuch</h3>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <p class="accordion-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid,
+                quisquam nam dignissimos omnis iusto quas voluptate cumque commodi.</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img src="../media/make-600x491.webp" alt="workprocess" width="450" height="400"/>
+      </div>
+    </section>
+    <script>
+        let accordions = document.querySelectorAll ('.accordion-container .accordion')
+        accordions.forEach(acco =>{
+            acco.onclick = ()  =>{
+                accordions.forEach(subAcco => { subAcco.classList.remove('active')});                acco.classList.add('active');
+            }
+        })
+    </script>
+  </body>
 </html>
