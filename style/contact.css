@@ -1,10 +1,12 @@
 .container-contact{
-    background-color: blueviolet;
+    display: flex;
 }
 
 .left-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     flex: 1;
-    background-color: #ff9999;
 }
 
 .right-div {

@@ -14,7 +14,7 @@ height: 100%;
 }
 
 #portfolio {
-    height: 1000px;
+    height: 1150px;
 }
 
 #price {
@@ -27,5 +27,5 @@ height: 100%;
 
 #contact{
     height: 1000px;
-    background-color: blueviolet;
+    background-color: #663BB5;
 }
