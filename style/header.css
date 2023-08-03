@@ -14,6 +14,15 @@
     height: 90px;
     
 }
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    /* Add any other styling for the box */
+  
+    /* Add the box shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -49,3 +58,11 @@
   .menu li a.active {
     background-color: #7733ff;
   }
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Ensure the navbar is above other content */
+  }
+  

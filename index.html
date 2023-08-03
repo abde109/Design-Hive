@@ -9,7 +9,7 @@
 
 <body>
 
-    <header class="navbar">
+    <header class="navbar" id="stickyNavbar">
         <div class="logo">
             <img src="media\Logo designhive-2.png" width="300px" height="150px">
         </div>
@@ -55,6 +55,14 @@
 
         document.getElementById('footer').innerHTML =
             '<object data="/src/footer.html" ></object>';
+            window.addEventListener('scroll', function() {
+  const navbar = document.getElementById('stickyNavbar');
+  if (window.scrollY > navbar.offsetTop) {
+    navbar.classList.add('sticky');
+  } else {
+    navbar.classList.remove('sticky');
+  }
+});
     </script>
 
 
