@@ -5,24 +5,14 @@
   }
     header{
     width: 100%;
-    /*background-image: url("../media/hero-shpae-min.webp");*/
-    background-position: left top;
     background-size: 536px 540px;
     background-repeat: no-repeat;
     background-color: #f1f4ff;
     padding: 0px;
     height: 90px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     
 }
-.box {
-    width: 200px;
-    height: 200px;
-    background-color: #f0f0f0;
-    /* Add any other styling for the box */
-  
-    /* Add the box shadow */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -43,20 +33,25 @@
   .menu li {
     display: inline-block;
     margin-right: 30px;
+    
   }
   .menu li a {
+    transition: transform .2s ease;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     text-decoration: none;
     color: #000000;
     padding: 5px 10px;
-    border-radius: 5px;
+   
   }
   .menu li a:hover {
-    color: #c36ecc;
+    transform: scale(1.2);
+  color:#401ABF;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
   }
   .menu li a.active {
-    background-color: #7733ff;
+    background-color: #401ABF;
   }
   .sticky {
     position: fixed;
