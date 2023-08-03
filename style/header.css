@@ -5,7 +5,6 @@
   }
     header{
     width: 100%;
-    background-position: left top;
     background-size: 536px 540px;
     background-repeat: no-repeat;
     background-color: #f1f4ff;
@@ -34,21 +33,25 @@
   .menu li {
     display: inline-block;
     margin-right: 30px;
+    
   }
   .menu li a {
+    transition: transform .2s ease;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     text-decoration: none;
     color: #000000;
     padding: 5px 10px;
-    border-radius: 5px;
+   
   }
   .menu li a:hover {
-    color:#401ABF;
-
+    transform: scale(1.2);
+  color:#401ABF;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
   }
   .menu li a.active {
-    background-color: #7733ff;
+    background-color: #401ABF;
   }
   .sticky {
     position: fixed;
