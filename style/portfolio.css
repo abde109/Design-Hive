@@ -1,21 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@300&display=swap");
 
+.portfolio-section{
+ background-image: url(../media/main-background-min.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top:50px;
+ padding-bottom:50px;
+}
 .portfolio-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 80%;
   margin: 0 auto;
   justify-items: center;
+  gap:40px;
+}
+.portfolio-title-container{
+  margin-bottom: 30px;
+}
+.portfolio-section h2{
+  font-family: 'Montserrat', sans-serif;
+  color:#f17425;
+  font-size:1.8rem;
+  margin-bottom:0;
+}
+.portfolio-section h3{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.6rem;
+  margin-top:0;
+  color:white;
+}
+.portfolio-section h2, .portfolio-section h3{
+  width:73%;
+  margin:0 auto;
 }
 .first-title {
     color:#c4b4de;
     font-size: 1.1rem;
     font-weight:bold;
     margin-bottom:0;
+    font-family: 'Montserrat', sans-serif;
 }
 .second-title {
   color: #3e3e3e;
   font-size: 2.1rem;
   font-weight: bold;
   margin-top:0;
+  font-family: 'Poppins', sans-serif;
+}
+.portfolio-card img{
+    border-radius:15px;
+}
+.portfolio-card{
+  background-color: white;
+  border-radius:15px;
+  height:430px;
+} 
+.portfolio-text-container{
+  margin-left:30px;
 }
