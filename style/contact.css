@@ -1,0 +1,13 @@
+.container-contact{
+    background-color: blueviolet;
+}
+
+.left-div {
+    flex: 1;
+    background-color: #ff9999;
+}
+
+.right-div {
+    flex: 1;
+    background-color: #9999ff;
+}
