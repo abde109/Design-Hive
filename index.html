@@ -4,11 +4,24 @@
 <head>
     <title>Your Webpage</title>
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/header.css">
 </head>
 
 <body>
 
-    <div id="header"></div>
+    <header class="navbar">
+        <div class="logo">
+            <img src="media\Logo designhive-2.png" width="300px" height="150px">
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#price">Pricing</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+        </ul>
+    </header>
     <div id="home"></div>
     <div id="about"></div>
     <div id="portfolio"></div>
@@ -19,8 +32,7 @@
     <div id="footer"></div>
 
     <script>
-        document.getElementById('header').innerHTML =
-            '<object data="/src/header.html" ></object>';
+       
         document.getElementById('home').innerHTML =
             '<object data="/src/home.html" ></object>';
 

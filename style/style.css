@@ -10,7 +10,7 @@ height: 100%;
 }
 
 #home{
-    height: 600px;
+    height: 620px;
 }
 
 #portfolio {
@@ -28,4 +28,8 @@ height: 100%;
 #contact{
     height: 840px;
     background-color: #663BB5;
+}
+
+#header{
+    height: 154px;
 }

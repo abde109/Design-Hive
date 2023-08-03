@@ -3,15 +3,15 @@
     margin: 0;
     padding: 0;
   }
-  section{
+    header{
     width: 100%;
-    background-image: url("../media/hero-shpae-min.webp");
+    /*background-image: url("../media/hero-shpae-min.webp");*/
     background-position: left top;
-    background-size: 532px 540px;
+    background-size: 536px 540px;
     background-repeat: no-repeat;
     background-color: #f1f4ff;
     padding: 0px;
-    height: 100px;
+    height: 90px;
     
 }
 .navbar{
