@@ -15,7 +15,7 @@ section{
     
 }
 .parenthome{
-  display: flex;
+  display: grid;
   justify-content: center;
   align-content: center;
   display: grid;
@@ -51,12 +51,12 @@ p{
     font-family: 'Poppins', sans-serif;
     font-size: 13pt;
     color: black;
-   text-align: center;
 }
 .textHome{
     position: relative;
     padding-top: 0;
     padding-left: 60px;
+    width: 750px;
 }
 .bghome{
     position: relative;
