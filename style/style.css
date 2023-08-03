@@ -7,6 +7,7 @@ body{
 object{
 width: 100%;
 height: 100%;
+margin: 0;
 }
 
 #home{
@@ -26,7 +27,7 @@ height: 100%;
 }
 
 #contact{
-    height: 840px;
+    height: 850px;
     background-color: #663BB5;
 }
 
@@ -36,4 +37,9 @@ height: 100%;
 
 #workprocess{
     height: 700px;
+}
+
+#footer{
+    height: 400px;
+    background-color: #1d1c2d;
 }

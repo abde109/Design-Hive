@@ -29,7 +29,6 @@
     <div id="price"></div>
     <div id="news"></div>
     <div id="contact"></div>
-    <div id="testimonial"></div>
     <div id="footer"></div>
 
     <script>
@@ -50,11 +49,10 @@
             '<object data="/src/news.html" ></object>';
         document.getElementById('contact').innerHTML =
             '<object data="/src/contact.html" ></object>';
-        document.getElementById('testimonial').innerHTML =
-            '<object data="/src/testimonial.html" ></object>';
 
         document.getElementById('footer').innerHTML =
             '<object data="/src/footer.html" ></object>';
+            
             window.addEventListener('scroll', function() {
   const navbar = document.getElementById('stickyNavbar');
   if (window.scrollY > navbar.offsetTop) {
