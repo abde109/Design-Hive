@@ -1,0 +1,77 @@
+.container-contact{
+    display: flex;
+}
+
+.left-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex: 1;
+    margin-top: 100px;
+}
+
+.right-div {
+    flex: 1;
+}
+
+.input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #402571;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease-in-out;
+    font-size: 20px; /* Change this to the desired font size */
+    color: #FFFFFF; /* Change this to the desired color */
+    width: 260px; /* Change this to the desired width */
+    height: 30px; /* Change this to the desired height */
+    position:relative;
+}
+
+.input::placeholder {
+    color: #FFFFFF;
+    /* Change this to the desired placeholder color */
+}
+
+.input.Username {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.input.message{
+    width: 600px;
+    height: 120px;
+}
+
+.input:focus {
+    background-color: #663BB5;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 30px #302656,
+        0px 0px 30px #663BB5;
+}
+
+.row-container {
+    flex-direction: row;
+    /* Aligns items horizontally. */
+    justify-content: space-around;
+    /* Distributes items evenly with space around them. */
+    align-items: center;
+    /* Vertically aligns items in the middle. */
+    width: 90%;
+}
+
+p.title{
+    font-size: 25px;
+    color: #FE715A;
+}
+
+h1.title{
+    font-size: 35px;
+    color: white;
+}
+
+p.desription{
+    font-size: 20px;
+    color: rgb(170, 165, 165);
+    padding-bottom:80px ;
+}
