@@ -40,6 +40,10 @@ h3{
   font-family: 'Montserrat', sans-serif;
   font-size: 22pt;
   color: black;
+  cursor: pointer;
+}
+h3:hover{
+  color:#401ABF;
 }
 p{
     font-family: 'Poppins', sans-serif;
@@ -234,9 +238,6 @@ font-family: 'Poppins', sans-serif;
 /* Hover styles for the button and arrow */
 .read-more:hover {
   gap: 15px;
+  color:#401ABF;
 
-}
-
-.read-more:hover::before {
-  border-left-color: #0056b3;
 }

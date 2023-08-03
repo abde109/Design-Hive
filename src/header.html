@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="../style/header.css">
 </head>
 <body>
-    <section class="navbar" id="stickyNavbar">
+    <header class="navbar" id="stickyNavbar">
         <div class="logo">
            <img src="..\media\Logo designhive-2.png" width="300px" height="150px">       
         </div>
@@ -17,7 +17,9 @@
         <li><a href="..\src\contact.html">Contact</a></li>
         <li><a href="..\src\testimonial.html">Testimonial</a></li>
     </ul>
-    </section>
+    </header>
+
+
     <script>
         window.addEventListener('scroll', function() {
   const navbar = document.getElementById('stickyNavbar');
@@ -26,6 +28,23 @@
   } else {
     navbar.classList.remove('sticky');
   }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const links = document.querySelectorAll('a[href^="#"]');
+  links.forEach(link => {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+      const target = document.querySelector(link.getAttribute('href'));
+      if (target) {
+        const offset = target.getBoundingClientRect().top;
+        window.scrollBy({
+          top: offset,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
 });
     </script>
 </body>
