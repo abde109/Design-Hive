@@ -11,7 +11,8 @@ margin: 0;
 }
 
 #home{
-    height: 620px;
+    height: 219.2%;
+    margin: 0;
 }
 
 #portfolio {
@@ -23,11 +24,11 @@ margin: 0;
 }
 
 #news{
-    height: 700px;
+    height: 800px;
 }
 
 #contact{
-    height: 850px;
+    height: 870px;
     background-color: #663BB5;
 }
 

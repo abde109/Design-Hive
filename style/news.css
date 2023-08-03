@@ -18,14 +18,15 @@ h4.plan {
 .card-row {
     display: flex;
     justify-content: space-around;
-    width: 80vw;
+    width: 90vw;
 }
 
 .card-news {
-    width: 380px;
-    height: 400px;
+    width: 360px;
+    height: 420px;
     background-color: #FFFFFF;
     border-radius: 15px;
+    padding: 20px;
 }
 
 .centered-container {
@@ -34,4 +35,91 @@ h4.plan {
     align-items: center;
     flex-direction: column;
     padding-bottom: 30px;
+}
+
+img.img-news{
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* This will provide space between the items and separators */
+    align-items: center;
+}
+
+.item {
+    width: 100%;
+    /* You can adjust this as per your requirement */
+    text-align: center;
+    /* This will center the content within each item */
+    font-size: 18px;
+    color : #847e7e;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.separator {
+    border-left: 1px solid #2b2a2a;
+    /* This creates a vertical line as separator */
+    height: 100%;
+    opacity: .2;
+}
+
+div.separator-header {
+    content: "";
+    background: #2b2a2a;
+    height: 1px;
+    bottom: 0;
+    opacity: .2;
+    position: relative;
+    margin-top: 10px;
+}
+span.content-news {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding-top: 15px;
+}
+
+span.content-news:hover {
+    color: #FE8B52;
+}
+
+.read-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+    /* Adjust this value as per your needs */
+}
+
+.read-more:hover {
+    gap: 15px;
+
+}
+
+h1.plan-news {
+    font-size: 35px;
+}
+
+h4.plan-news {
+    color: #FE8B52;
 }
