@@ -1,0 +1,15 @@
+.container-contact{
+    display: flex;
+}
+
+.left-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex: 1;
+}
+
+.right-div {
+    flex: 1;
+    background-color: #9999ff;
+}

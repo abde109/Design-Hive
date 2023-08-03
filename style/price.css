@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #FAFAFE;
+    padding-top: 50px;
+}
+
+h1.plan {
+    font-size: 35px;
+}
+
+h4.plan{
+    color: #FE8B52;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+}
+
+.card-price{
+    width: 380px;
+    height: 500px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.card-price-monthly {
+    width: 180px;
+    height: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}

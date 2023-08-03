@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+section{
+    width: 100%;
+    background-image: url("../media/hero-shpae-min.webp");
+    background-position: left top;
+    background-size: 532px 540px;
+    background-repeat: no-repeat;
+    background-color: #f1f4ff;
+    z-index: 1;
+    height: 600px;
+    
+}
+.parenthome{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin: 0 auto;
+  position: relative;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65pt;
+    color: black;
+
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13pt;
+    color: black;
+}
+.textHome{
+    position: relative;
+    padding-top: 0;
+    padding-left: 60px;
+}
+.bghome{
+    position: relative;
+
+
+}
+#imghome{
+    width: 503px;
+    height: 503px;
+    left: 110px;
+    position: absolute;
+    
+}
+.imgtriangle{
+    position: absolute;
+    top: -60px;
+    left: 20px;
+    animation-duration: 5s;
+  animation-name: movement;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+}
+.imgdemicerle{
+  position: absolute;
+  top: 300px;
+  left: 900px;
+  animation-duration: 5s;
+animation-name: movement;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+
+}
+@keyframes movement{
+  0% {
+    margin-left: 5%;
+  }
+  50% {
+    margin-left: 0%;
+  }
+
+  100% {
+    margin-left: 5%;
+  }
+
+}
+
+@keyframes circleAnimation {
+  0% {
+    transform: translateX(100px) translateY(0) rotate(0deg); /* Start from the right side with no rotation */
+  }
+  100% {
+    transform: translateX(100px) translateY(0) rotate(360deg); /* End at the right side after one full rotation */
+  }
+}
+/* Button get started */
+.button-1 {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-1 {
+    padding: 0 2.6rem;
+  }
+}
