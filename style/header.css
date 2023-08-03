@@ -49,3 +49,11 @@
   .menu li a.active {
     background-color: #7733ff;
   }
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Ensure the navbar is above other content */
+  }
+  
