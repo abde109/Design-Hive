@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@300&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family:'Poppins', sans-serif;
+}
+.workprocess-section {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  gap:50px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.workprocess-title{
+    color:#fe5058;
+    font-size:3.3rem;
+    margin-bottom:0;
+    font-family: 'Montserrat', sans-serif;
+}
+.workprocess-subtitle{
+    font-size: 1.6rem;
+    margin-top:0;
+}
+.accordion-container {
+  padding: 0 5px;
+}
+.accordion-container .accordion {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.accordion-container .accordion.active .accordion-heading {
+  background-color: #8f26b8;
+  color:white;
+}
+.accordion-container .accordion.active .accordion-heading i {
+  transition: transform 0.2s 0.1s;
+  transform: rotate(180deg);
+}
+.accordion-container .accordion.active .accordion-content {
+  display: block;
+  margin-top:0;
+}
+
+.accordion-container .accordion .accordion-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: none;
+  background-color: #f5ebeb;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+.accordion-container .accordion .accordion-heading h3 {
+  font-size: 20px;
+}
+.accordion-container .accordion .accordion-heading i {
+  font-size: 20px;
+}
+.accordion-container .accordion .accordion-content {
+  padding: 15px 20px;
+  border:none;
+  background-color: #f5ebeb;
+  font-size: 15px;
+  border-top: 0;
+  display: none;
+  animation: animate 0.2s linear backwards;
+  line-height: 2;
+  transform-origin: top;
+  border-radius: 10px;
+}
+@keyframes animate {
+  0% {
+    transform: scaleY(0);
+  }
+}
