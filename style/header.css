@@ -36,7 +36,7 @@
     
   }
   .menu li a {
-    transition: transform .2s ease;
+   
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     text-decoration: none;
@@ -45,10 +45,16 @@
    
   }
   .menu li a:hover {
-    transform: scale(1.2);
+  
   color:#401ABF;
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
+  }
+  .zoom{
+    transition: transform .2s ease;
+  }
+  .zoom:hover{
+    transform: scale(1.2);
   }
   .menu li a.active {
     background-color: #401ABF;
