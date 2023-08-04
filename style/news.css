@@ -83,6 +83,7 @@ span.content-news {
     display: inline-block;
     width: 100%;
     padding-top: 15px;
+    color: #413f3f;
 }
 
 span.content-news:hover {
@@ -96,7 +97,6 @@ span.content-news:hover {
     gap: 4px;
     border: none;
     background-color: transparent;
-    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     transition: 0.5s ease;

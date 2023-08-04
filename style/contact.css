@@ -5,9 +5,12 @@
 .left-div {
     display: flex;
     justify-content: center;
-    align-content: center;
     flex: 1;
-    margin-top: 135px;
+    padding-top: 139px;
+}
+
+img.image-contact{
+    position: absolute;
 }
 
 .right-div {
